@@ -34,5 +34,10 @@ body {
     font-family: 'Kumbh Sans', Sans-Serif;
     font-size: var(--body);
     color: var(--Dark-grayish-blue);
+    background-color: var(--Soft-violet);
+}
+
+a {
+    text-decoration: none;
 }
 

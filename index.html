@@ -8,6 +8,7 @@
   <!--STYLES CSS-->
   <link rel="stylesheet" href="./styles/base-styles.css">
   <link rel="stylesheet" href="./styles/mobile.css">
+  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width: 1080px)">
   <!--GOOGLE FONTS-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,74 +18,53 @@
 <body>
   <main>
     <section class="faq-card">
-      <img src="./images/illustration-woman-online-mobile.svg" alt="">
-      <h1 class="faq-title">FAQ</h1>
+      <img src="./images/illustration-woman-online-mobile.svg" alt="" class="img-card">
+      <img src="./images/illustration-box-desktop.svg" alt="" class="img-box">
+      <div class="faq-bg">
+        <img src="./images/illustration-woman-online-desktop.svg" alt="" class="img-card__desktop">
+      </div>
+      <div class="faq-content">
+        <h1 class="faq-title">FAQ</h1>
+        <div class="accordeon-container">
+          <a href="#" class="accordeon-title">How many team members can I invite? <span class="down-arrow up-arrow arrow-btn"></span> </a>
+          <div class="accordeon-content">
+            <p class="accordeon-p">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+          </div>
+        </div>
+        
+        <div class="accordeon-container">
+          <a href="#" class="accordeon-title">What is the maximum file upload size? <span class="down-arrow up-arrow arrow-btn"></span> </a>
+          <div class="accordeon-content">
+            <p class="accordeon-p">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </div>
+  
+        <div class="accordeon-container">
+          <a href="#" class="accordeon-title">How do I reset my password? <span class="down-arrow up-arrow arrow-btn"></span></a>
+          <div class="accordeon-content">
+            <p class="accordeon-p">Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
+          </div>
+        </div>
+        
+        <div class="accordeon-container">
+          <a href="#" class="accordeon-title">Can I cancel my subscription? <span class="down-arrow up-arrow arrow-btn"></span></a>
+          <div class="accordeon-content">
+            <p class="accordeon-p">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </div>
+        </div>
+  
+        <div class="accordeon-container">
+          <a href="#" class="accordeon-title">Do you provide additional support? <span class="down-arrow up-arrow arrow-btn"></span></a>
+          <div class="accordeon-content">
+            <p class="accordeon-p">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </div>
 
-      <div class="accordeon-container">
-        <h2 class="accordeon-title">How many team members can I invite?</h2>
-        <button class="show-content"> <span class="down-arrow">arrow</span></button>
-        <div class="accordeon-content">
-          <p class="accordeon-p">You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
-        </div>
-      </div>
-      
-      <div class="accordeon-container">
-        <h2 class="accordeon-title">How many team members can I invite?</h2>
-        <button class="show-content"> <span class="down-arrow">arrow</span></button>
-        <div class="accordeon-content">
-          <p class="accordeon-p">You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
-        </div>
-      </div>
-
-      <div class="accordeon-container">
-        <h2 class="accordeon-title">How many team members can I invite?</h2>
-        <button class="show-content"> <span class="down-arrow">arrow</span></button>
-        <div class="accordeon-content">
-          <p class="accordeon-p">You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
-        </div>
-      </div>
-      
-      <div class="accordeon-container">
-        <h2 class="accordeon-title">How many team members can I invite?</h2>
-        <button class="show-content"> <span class="down-arrow">arrow</span></button>
-        <div class="accordeon-content">
-          <p class="accordeon-p">You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
-        </div>
-      </div>
-
-      <div class="accordeon-container">
-        <h2 class="accordeon-title">How many team members can I invite?</h2>
-        <button class="show-content"> <span class="down-arrow">arrow</span></button>
-        <div class="accordeon-content">
-          <p class="accordeon-p">You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.</p>
-        </div>
       </div>
 
     </section>
   </main>
-  
-
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
-
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
-
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
-
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
